@@ -1,0 +1,6 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+mangopi.org	TRUE	/	FALSE	1999999999	DokuWiki	cpte2ns06n6qk3a1smv1ohgvek
+mangopi.org	TRUE	/	FALSE	1999999999	DW7fa065a06cb74b536c124cfbe56ac6d3	deleted
+mangopi.org	TRUE	/	FALSE	1999999999	SameSite	Lax
+

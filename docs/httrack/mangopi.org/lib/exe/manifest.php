@@ -1,0 +1,1 @@
+{"display":"standalone","scope":"\/","name":"welcome to see widora.cn","short_name":"welcome to see widora.cn","description":"","start_url":"\/","background_color":"#ffffff","theme_color":"#008800","icons":[{"src":"https:\/\/mangopi.org\/_media\/wiki:dokuwiki.svg","sizes":"17x17 512x512","type":"image\/svg+xml"}]}

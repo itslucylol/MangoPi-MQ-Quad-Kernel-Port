@@ -1,0 +1,67 @@
+~~NOTOC~~
+
+===MQ-Quad has almost the same appearance as MQ-Pro, however, the main chip is H616===
+
+
+
+{{ ::img_0663.jpg |}}
+
+
+
+=====Version=====
+based H616
+  * V1.0, Test version
+  * V1.1, small batch
+  * V1.2, Pink or Black PCB, added RST and FEL test-point
+=====Model=====
+  * MPi-MQ1QH6：H616, WiFi+BT, 1GB DRAM
+  * <del>MPi-MQ1QH8：H618, WiFi+BT, 1GB DRAM</del>
+
+
+<WRAP group>
+<WRAP half column>
+=====HW=====
+  * SCH: {{ ::mq-quad-sch-v1p1.pdf |}}  {{ ::mq-quad-sch-v1p2.pdf |}}
+  * DXF: {{ ::mq-quad_v1p2.zip |}}
+  * BOM: {{ ::mq-quad-v12-bom-output.xlsx |}}
+  * PINOUT:
+  * H616 ds: {{ ::h616_datasheet_v1.0.pdf |}}   
+  * H616 manual:  {{ ::h616_user_manual_v1.0.pdf |}}
+  * AXP313a: {{ ::axp313a_datasheet_v0.1-20201105.pdf |}}
+  * WiFi Module(rtl8723ds chip solution ) {{ ::rtl8723ds-cg_datasheet_0.92_20170804.pdf |}}
+    *  Shell label: 6223A-SRD {{ ::fn-link_fg6223asrd_datasheet_v2.1_20210728.pdf |}}
+    *  Shell label: TL8723DS {{ ::tl8723dsa.pdf |}}  
+</WRAP>
+
+<WRAP half column>
+=====FW&SDK=====
+===Debian(user:root, password: orangepi)===
+  * IMG with XFCE: [[https://mega.nz/file/fepChAzC#1hbbYGGWi29UDfZwU4r8B6whNFLdcdB9uce9jUCT8ok|from MEGA]] [[https://pan.baidu.com/s/1sxu5JyxMVdSDKuqu8zjZDw?pwd=1111|from BaiduYun]]   
+  * IMG with server: [[https://pan.baidu.com/s/1fhCvC5CKXQaGTzshGaZgPA?pwd=1111]]
+  * Debian Source: [[https://1drv.ms/u/s!AmERp4hYtiGqoAVGFvwLcge6F4Qy?e=oXOVjb | onedrive (beta version)]] [[https://pan.baidu.com/s/1FlyP-_ySzXNRS-LFFdrODQ?pwd=h616 |百度云20230621]]
+===Android10 TV===
+  * for H616: [[https://mega.nz/file/DXwhxACC#_ubCbHQs1UyluqR7WXeGTKNq5yPHS1HgQdzLPN2AAcM | from MEGA]] [[https://pan.baidu.com/s/13fdKHnuFpezpuKq3Ji9FqA?pwd=1111 | from BaiduYun]]
+  * for H618: [[https://mega.nz/file/zHBC2LKb#y7DIT8qod-G27wGg9dNhDVlkNKZ_XXxr9-AYSkXbgD4 | from MEGA]] [[https://pan.baidu.com/s/1wmw_KGhIlT02G6vNLygRfA?pwd=1111 | from BaiduYun]]
+
+===Tina-Linux(Not recommended)===
+  * {{ :h616:mq-quad-rtl8723ds-5135-dns-uart0.img |IMG}} 
+  * [[https://pan.baidu.com/s/1jILPY9gPXqICq92L3esoVQ?pwd=h616 |SDK from BaiduYun]]   Compile Host: Ubuntu14.04x64 ~ Ubuntu18.04x64
+</WRAP>
+</WRAP>
+
+
+=====Tools=====
+==For Tina-Linux & Android==
+  * Flash TF Card (Windows) :  {{ ::phoenixcard4.2.8.zip |}}  
+  * How to use: {{::20220418135120.png?direct&50|}}
+
+==For Debian & ArmBian==
+  * USBIT (Windows): https://www.alexpage.de/usb-image-tool/download/ 
+  * Win32DiskImager (Windows): https://sourceforge.net/projects/win32diskimager/
+  * etcher(Win/Mac/Linux): https://www.balena.io/etcher/ 
+
+
+====Develop====
+{{ ::tina-linux-doc.zip |}}
+
+

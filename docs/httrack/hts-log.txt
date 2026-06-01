@@ -1,0 +1,32 @@
+HTTrack3.49-2 launched on Mon, 01 Jun 2026 11:07:14 at https://mangopi.org/mangopi_mqquad
+(httrack https://mangopi.org/mangopi_mqquad )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+11:08:39	Warning: 	Link https://mangopi.org/mangopi_mqquad?do=index not scanned (follow robots meta tag)
+11:10:34	Warning: 	Link https://mangopi.org/mangopi_mqquad?do=login&sectok= not scanned (follow robots meta tag)
+11:10:34	Warning: 	Link https://mangopi.org/mangopi_mqquad?do=recent not scanned (follow robots meta tag)
+11:10:34	Warning: 	Link https://mangopi.org/mangopi_mqquad?do=media&ns=0 not scanned (follow robots meta tag)
+11:10:39	Warning: 	Link https://mangopi.org/mangopi_mqquad?do=edit not scanned (follow robots meta tag)
+11:10:39	Warning: 	Link https://mangopi.org/mangopi_mqquad?do=revisions not scanned (follow robots meta tag)
+11:10:39	Warning: 	Link https://mangopi.org/mangopi_mqquad?do=backlink not scanned (follow robots meta tag)
+11:10:39	Warning: 	Link https://mangopi.org/start?do=index not scanned (follow robots meta tag)
+11:10:39	Warning: 	Link https://mangopi.org/start?do=login&sectok= not scanned (follow robots meta tag)
+11:10:39	Warning: 	Link https://mangopi.org/start?do=recent not scanned (follow robots meta tag)
+11:10:39	Warning: 	Link https://mangopi.org/start?do=media&ns=0 not scanned (follow robots meta tag)
+11:10:39	Warning: 	Link https://mangopi.org/start?do=edit not scanned (follow robots meta tag)
+11:10:39	Warning: 	Link https://mangopi.org/start?do=revisions not scanned (follow robots meta tag)
+11:10:39	Warning: 	Link https://mangopi.org/start?do=backlink not scanned (follow robots meta tag)
+11:10:50	Warning: 	Link https://mangopi.org/mqquad?do=index not scanned (follow robots meta tag)
+11:10:50	Warning: 	Link https://mangopi.org/mqquad?do=login&sectok= not scanned (follow robots meta tag)
+11:10:50	Warning: 	Link https://mangopi.org/mqquad?do=recent not scanned (follow robots meta tag)
+11:10:50	Warning: 	Link https://mangopi.org/mqquad?do=media&ns=0 not scanned (follow robots meta tag)
+11:10:50	Warning: 	Link https://mangopi.org/mqquad?do=edit not scanned (follow robots meta tag)
+11:10:50	Warning: 	Link https://mangopi.org/mqquad?do=revisions not scanned (follow robots meta tag)
+11:10:50	Warning: 	Link https://mangopi.org/mqquad?do=backlink not scanned (follow robots meta tag)
+
+HTTrack Website Copier/3.49-2 mirror complete in 3 minutes 36 seconds : 187 links scanned, 186 files written (209974872 bytes overall) [209083102 bytes received at 967977 bytes/sec], 1418071 bytes transferred using HTTP compression in 119 files, ratio 30%, 13.3 requests per connection
+(No errors, 21 warnings, 0 messages)
