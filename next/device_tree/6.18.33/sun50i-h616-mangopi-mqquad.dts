@@ -1,21 +1,21 @@
 /dts-v1/;
 
 / {
-        interrupt-parent = <0x01>;
-        #address-cells = <0x02>;
-        #size-cells = <0x02>;
-        model = "OrangePi Zero2";
-        compatible = "xunlong,orangepi-zero2", "allwinner,sun50i-h616";
+    interrupt-parent = <0x01>;
+    #address-cells = <0x02>;
+    #size-cells = <0x02>;
+    model = "MangoPi MQQUAD";
+    compatible = "xunlong,orangepi-zero2", "allwinner,sun50i-h616";
 
 	mango_fixed_mmc_power {
-                compatible = "regulator-fixed";
-                regulator-name = "vcc-eth-mmc";
-                regulator-min-microvolt = <0x325aa0>;
-                regulator-max-microvolt = <0x325aa0>;
-                regulator-always-on;
-                regulator-boot-on;
-                phandle = <0x0a>;
-        };
+            compatible = "regulator-fixed";
+            regulator-name = "vcc-eth-mmc";
+            regulator-min-microvolt = <0x325aa0>;
+            regulator-max-microvolt = <0x325aa0>;
+            regulator-always-on;
+            regulator-boot-on;
+            phandle = <0x0a>;
+    };
 
 	reserved-memory {
 		ranges;
@@ -301,8 +301,8 @@
 			/* pinctrl-0 = <0x0d>; */
 			status = "okay";
 			vmmc-supply = <0x99>;
-                        vqmmc-supply = <0x99>;
-                        bus-width = <0x04>;
+            vqmmc-supply = <0x99>;
+            bus-width = <0x04>;
 			mmc-pwrseq = <0x99>;
 			cap-sd-highspeed;
 			cap-mmc-highspeed;
@@ -866,11 +866,11 @@
 	};
 
 	wifi_pwrseq {
-                compatible = "mmc-pwrseq-simple";
-                reset-gpios = <0x1b 0x06 0x0c 0x00>;
+        compatible = "mmc-pwrseq-simple";
+        reset-gpios = <0x0b 0x06 0x0c 0x00>;
 		post-power-on-delay-ms = <100>;
-                phandle = <0x99>;
-        };
+        phandle = <0x99>;
+    };
 
 	chosen {
 		stdout-path = "serial0:115200n8";
