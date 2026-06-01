@@ -15,7 +15,7 @@ The forums that they used to host at https://forums.mangopi.org do not exist any
 You will notice at the top level there are 4 folders, `docs`, `orangepi`, `stock` and `next`. Each of these folders have a purpose.
 
 1. **docs:** Backups of official MangoPi documents in case the website goes down further.
-2. **orangepi:** This board is very similar to the OrangePi Zero, so some reference files for that board live in the `orangepi` directory to help aid in the porting effort. Keep in mind that the OrangePi Zero only ever got an official release up to Kernel 6.1.
+2. **orangepi:** This board is very similar to the OrangePi Zero, so some reference files for that board live in the `orangepi` directory to help aid in the porting effort.
 3. **stock:** Stock boot files and kernels extracted from the MangoPi. These should be unmodified and original files. These are not expected to change.
 4. **next:** The active development for this kernel & dtb.
 
