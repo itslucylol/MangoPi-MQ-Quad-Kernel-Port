@@ -4,7 +4,7 @@
 
 The goal of this project is to port the MangoPi MQ-Quad to a Kernel Version 6+.
 
-The MangoPi MQ-Quad was only ever shipped with a single build of Debian and was never updated.
+The MangoPi MQ-Quad was only ever shipped with a single build of Debian (kernel 5.16.17) and was never updated.
 
 From what I can tell, MangoPi as a company does not exist anymore. If you go to their website, https://mangopi.org contains almost no information on what board they offered anymore.
 
@@ -21,7 +21,8 @@ You will notice at the top level there are 4 folders, `docs`, `orangepi`, `stock
 
 ## Project Status
 
-Kernel Version: 6.18.33
+Stock Kernel:           5.16.17
+Project Kernel Version: 6.18.33
 
 - ✅ Serial Access Pre-Boot
 - ✅ Serial Access Pre-Userspace
