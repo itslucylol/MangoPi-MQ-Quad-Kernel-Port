@@ -22,6 +22,7 @@ You will notice at the top level there are 4 folders, `docs`, `orangepi`, `stock
 ## Project Status
 
 Stock Kernel:           5.16.17
+
 Project Kernel Version: 6.18.33
 
 - ✅ Serial Access Pre-Boot
@@ -30,3 +31,6 @@ Project Kernel Version: 6.18.33
 - ❔ Initialize GPIO (Untested, though UART works)
 - ❌ Initialize WiFi / Bluetooth
 - ❌ Initialize Display
+
+## Additional Resources
+More resources can be found under the `docs` folder.
