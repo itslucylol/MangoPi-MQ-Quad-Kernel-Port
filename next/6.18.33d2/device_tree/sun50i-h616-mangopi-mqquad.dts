@@ -289,7 +289,7 @@
             phandle = <0x22>;
         };
 
-        emmc: mmc@4022000 {
+        mmc2_wifi_candidate: mmc@4022000 {
             compatible = "allwinner,sun50i-h616-emmc", "allwinner,sun50i-a100-emmc";
             reg = <0x4022000 0x1000>;
             clocks = <0x02 0x41 0x02 0x3e>;
@@ -298,12 +298,12 @@
             reset-names = "ahb";
             interrupts = <0x00 0x25 0x04>;
             pinctrl-names = "default";
-            /* pinctrl-0 = <0x0d>; */
+            pinctrl-0 = <&emmc_pins>;
             status = "okay";
-            vmmc-supply = <0x99>;
-            vqmmc-supply = <0x99>;
+            vmmc-supply = <&vcc_mmc_wifi>;
+            vqmmc-supply = <&vcc_mmc_wifi>;
             bus-width = <0x04>;
-            mmc-pwrseq = <0x99>;
+            // mmc-pwrseq = <&rtl8723ds_pwrseq>;
             cap-sd-highspeed;
             cap-mmc-highspeed;
             mmc-ddr-3_3v;
