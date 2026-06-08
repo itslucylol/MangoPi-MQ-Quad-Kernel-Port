@@ -1,14 +1,18 @@
 # MangoPi MQ-Quad Kernel Port
 
+## Support
+
+No real support is given. If you wish to discuss this project with me, feel free to [join my discord](https://discord.gg/TtqaugrG25) to ask about the state of the project or provide additional assistance. Thank you!!
+
 ## Why?
 
 The goal of this project is to port the MangoPi MQ-Quad to a Kernel Version 6+.
 
 The MangoPi MQ-Quad was only ever shipped with a single build of Debian (kernel 5.16.17) and was never updated.
 
-From what I can tell, MangoPi as a company does not exist anymore. If you go to their website, https://mangopi.org contains almost no information on what board they offered anymore.
+From what I can tell, MangoPi as a company does not exist anymore. If you go to their website, https://mangopi.org contains almost no information on what board they offer anymore.
 
-The forums that they used to host at https://forums.mangopi.org do not exist anymore either. There was active discussion around porting this board to a higher kernel version. All of that conversation was lost sadly, which is why I have the `docs` directory in this repo to prevent future loss.
+The forums that they used to host at https://forums.mangopi.org do not exist anymore either. There was active discussion around porting this board to a higher kernel version. All of that conversation was lost, sadly, which is why I have the `docs` directory in this repo to prevent future loss.
 
 ## What is in this repo?
 
