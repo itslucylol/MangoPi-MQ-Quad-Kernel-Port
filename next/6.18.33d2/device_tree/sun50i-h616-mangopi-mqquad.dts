@@ -278,7 +278,7 @@
             interrupts = <0x00 0x24 0x04>;
             pinctrl-names = "default";
             pinctrl-0 = <0x0c>;
-            status = "disabled";
+            status = "okay";
             cap-sd-highspeed;
             cap-mmc-highspeed;
             mmc-ddr-3_3v;
@@ -299,10 +299,10 @@
             interrupts = <0x00 0x25 0x04>;
             pinctrl-names = "default";
             pinctrl-0 = <&emmc_pins>;
-            status = "okay";
+            status = "disabled";
             vmmc-supply = <&vcc_mmc_wifi>;
             vqmmc-supply = <&vcc_mmc_wifi>;
-            bus-width = <0x04>;
+            bus-width = <4>;
             // mmc-pwrseq = <&rtl8723ds_pwrseq>;
             cap-sd-highspeed;
             cap-mmc-highspeed;
