@@ -277,16 +277,20 @@
             reset-names = "ahb";
             interrupts = <0x00 0x24 0x04>;
             pinctrl-names = "default";
-            pinctrl-0 = <0x0c>;
+            pinctrl-0 = <&wifi_sdio_pins>;
             status = "okay";
             cap-sd-highspeed;
             cap-mmc-highspeed;
+            vmmc-supply = <&vcc_mmc_wifi>;
+            vqmmc-supply = <&vcc_mmc_wifi>;
             mmc-ddr-3_3v;
-            mmc-ddr-1_8v;
+            no-1-8-v;
             cap-sdio-irq;
             #address-cells = <0x01>;
             #size-cells = <0x00>;
             phandle = <0x22>;
+            bus-width = <4>;
+            non-removable;
         };
 
         mmc2_wifi_candidate: mmc@4022000 {
