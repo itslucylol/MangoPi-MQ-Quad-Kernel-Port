@@ -26,7 +26,7 @@ You will notice at the top level there are 4 folders, `docs`, `stock` and `next`
 
 Stock Kernel:           5.16.17
 
-Project Kernel Version: 6.18.33
+Project Kernel Version: 7.1.2
 
 - ✅ Serial Access Pre-Boot
 - ✅ Serial Access Pre-Userspace
