@@ -874,7 +874,8 @@
         compatible = "mmc-pwrseq-simple";
         clocks = <0x08 0x01>;
         clock-names = "osc32k-out";
-        reset-gpios = <0x0b 0x06 0x12 0x01 0x0b 0x06 0x12 0x01>;
+        resets = <>;
+        reset-gpios = <0x0b 0x06 0x12 0x01>;
         post-power-on-delay-ms = <100>;
         phandle = <0x99>;
     };

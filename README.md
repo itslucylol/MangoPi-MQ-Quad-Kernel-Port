@@ -32,8 +32,10 @@ Project Kernel Version: 6.18.33
 - ✅ Serial Access Pre-Userspace
 - ✅ Boot Custom Kernel into Userspace
 - ❔ Initialize GPIO (Untested, though UART works)
-- ❌ Initialize WiFi / Bluetooth
+- ❌ Initialize WiFi
+- ❌ Initialize Bluetooth
 - ❌ Initialize Display
+- ❌ Custom U-Boot (Eventually?)
 
 ## Additional Resources
 More resources can be found under the `docs` folder.
