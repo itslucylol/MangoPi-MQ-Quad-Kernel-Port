@@ -291,6 +291,7 @@
             phandle = <0x22>;
             bus-width = <4>;
             non-removable;
+            mmc-pwrseq = <0x99>;
         };
 
         mmc2_wifi_candidate: mmc@4022000 {
@@ -871,6 +872,8 @@
 
     rtl8723ds_pwrseq: wifi-pwrseq {
         compatible = "mmc-pwrseq-simple";
+        clocks = <0x08 0x01>;
+        clock-names = "ext_clock";
         reset-gpios = <0x0b 0x06 0x0c 0x00>;
         post-power-on-delay-ms = <100>;
         phandle = <0x99>;
