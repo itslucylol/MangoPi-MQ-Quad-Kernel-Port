@@ -1,9 +1,10 @@
 # 7.1.2
 
-- ✅ Serial Access Pre-Boot
-- ✅ Serial Access Pre-Userspace
-- ✅ Boot Custom Kernel into Userspace
-- ❔ Initialize GPIO (Untested, though UART works)
+- ✅ UART Access Pre-Boot
+- ✅ UART Access InitramFS
+- ✅ UART Access Kernelspace
+- ❌ UART Access Userspace
+- ❔ Initialize GPIO
 - ❌ Initialize WiFi
 - ❌ Initialize Bluetooth
 - ❌ Initialize Display
