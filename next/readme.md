@@ -6,10 +6,11 @@ run `build_dtb.sh` with the main perameter of the kernel version you want to bui
 
 For example, to build kernel version 6.18.33's dtb, use `./build_dtb.sh 6.18.33` while in this directory.
 
-Some versions may be designated with a `dX` following the kernel version. This is a revision of the device tree for that kernel version.
-
-For example, `6.18.33d2` is the second dtb revision for kernel version `6.18.33`
-
 ## Building a Kernel
 
-Not automated yet. Please use a kernel_bin for now.
+With this project inside of am arm64 chroot and kernel sources installed to `/usr/src/linux`,
+you may run `build_kernel.sh` to build the version you want.
+
+For example, to build kernel version 6.18.33 for the MQ-Quad, run `./build_kernel 6.18.33`.
+
+As of right now, the kernel is intended to be built based on the Gentoo Kernel Sources, though other versions may work.
